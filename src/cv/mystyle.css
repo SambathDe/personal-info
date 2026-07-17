@@ -16,7 +16,7 @@ body{
 
     .navigation-bar{
         background-color: rgb(17, 17, 17);
-        color: white;
+        color: white !important;
         font-size: 12px;
         
         .profile-card{
