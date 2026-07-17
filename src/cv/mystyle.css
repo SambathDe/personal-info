@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 60rem;
+    height: fit-content;
+
+    .navigation-bar{
+        background-color: rgb(17, 17, 17);
+        color: white;
+        font-size: 12px;
+        
+        .profile-card{
+            width: 0px;
+            height: 0px;
+            border-top: 255px solid gold;
+            border-left: 255x solid gold;
+            border-right: 255px solid transparent;
+        }
+
+        .profile-picture img{
+            width: 10rem;
+            border-radius: 100%;
+            border: 5px solid white;
+            position: absolute;
+            margin: 50px 0px 0px 50px;
+        }
+
+        h3{
+            border-bottom: 0.1px solid rgb(128, 126, 126);
+            padding: 20px 0px 0px 0px;
+            align-items: center;
+            padding-bottom: 10px;
+
+            img{
+                width: 15x;
+                height: 15px;
+                float: right;
+            }
+        }
+
+        .contact-card{
+            padding: 0px 10px 0px 10px;
+
+            .contact-num{
+                display: flex;
+                align-items: center;
+                padding: 10px 0px 5px 0px;
+                
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+                p{padding-left: 10px;}
+            }
+            .contact-email{
+                display: flex;
+                align-items: center;
+                padding-bottom: 5px;
+
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+                p{padding-left: 10px;}
+            }
+            .contact-address{
+                display: flex;
+                align-items: center;
+                padding-bottom: 5px;
+
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+                p{padding-left: 10px;}
+            }
+            .contact-website{
+                display: flex;
+                align-items: center;
+
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+                p{padding-left: 10px;}
+            }
+        }
+        .education-card{
+            padding: 10px 10px 0px 10px;
+            h3{
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+        .othereducation-card{
+            padding: 10px 10px 0px 10px;
+            h3{
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+        .skills-card{
+            padding: 10px 10px 0px 10px;
+            h3{
+                img{
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+        }
+    }
+
+    .card{
+        padding: 40px 5px 10px 10px;
+
+        .name-card{
+
+            padding: 40px 0px 40px 20px;
+            background-color: gold;
+        }
+        h3{
+            border-bottom: 0.5px solid black;
+            padding-bottom: 5px;
+            align-items: center;
+        }
+        .tbl-col1{
+            width: 8rem;
+        }
+        .dot{
+            width: 5rem;
+            text-align: center;
+        }
+        .personal-data-card{
+            padding: 53px 0px 10px 20px;
+            h3{
+                img{
+                    width: 18px;
+                    float: right;
+                }
+            }
+        }
+        .work-experience-card{
+            padding: 10px 0px 10px  20px;
+            h3{
+                img{
+                    width: 18px;
+                    height: 18px;
+                    float: right;
+                }
+            }
+        }
+        .languages-card{
+            padding: 10px 0px 10px 20px;
+            h3{
+                img{
+                    width: 18px;
+                    height: 18px;
+                    float: right;
+                }
+            }
+        }
+        .reference-card{
+            padding: 10px 0px 10px 20px;
+            h3{
+                img{
+                    width: 25px;
+                    float: right;
+                };
+            }
+        }
+    }
+}
