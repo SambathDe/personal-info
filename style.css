@@ -52,5 +52,9 @@ table {
     border: 1px solid #000;
     padding: 8px;
     text-align: left;
-  }
+}
+
+.header-container {
+  position: sticky;
+  top: 0;
 }
